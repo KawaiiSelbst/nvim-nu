@@ -149,6 +149,7 @@ local nu_hover = null_ls_helpers.make_builtin({
 	},
 })
 
+
 null_ls.register({ nu_hover, nu_lsp })
 
 return M
